@@ -2,6 +2,7 @@ import {Box, Typography} from "@mui/material";
 import {ArrowBack, ArrowFront, DoubleQuotationMark, Groove} from "../../../svg";
 import avatarImgUrl from '../../../assets/images/avatarImg.png'
 import grooveImgUrl from '../../../assets/images/grooveAvatar.png'
+import React from "react";
 
 const DashboardSectionC = ({isSmallScreen, isMediumScreen, theme}) => {
     return (
@@ -67,7 +68,7 @@ const DashboardSectionC = ({isSmallScreen, isMediumScreen, theme}) => {
                             }}
                         >
                             How it worked for Jason <img src={avatarImgUrl} width="57px" height="57px"
-                                                         style={{borderRadius: '25px'}}/> at
+                                                         style={{borderRadius: '25px'}} alt={avatarImgUrl}/> at
                         < /Typography>
                         <Box sx={{
                             width: isSmallScreen ? 'auto' : '100%',
@@ -109,7 +110,7 @@ const DashboardSectionC = ({isSmallScreen, isMediumScreen, theme}) => {
                 }}>
                     <Box sx={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1.5rem'}}>
                         <img src={grooveImgUrl} width={isSmallScreen ? '70px' : '99px'}
-                             height={isSmallScreen ? '70px' : '99px'} style={{borderRadius: '50%'}}/>
+                             height={isSmallScreen ? '70px' : '99px'} style={{borderRadius: '50%'}} alt={grooveImgUrl}/>
                         <Box sx={{
                             display: 'flex',
                             flexDirection: 'column',

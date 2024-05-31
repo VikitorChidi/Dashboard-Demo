@@ -62,7 +62,7 @@ const CustomDisplayItem = ({num, title, desc, itemImg, bg, link, isSmallscreen})
                 </Box>
             </Box>
             <img src={itemImg} width={"466px"} height={"fit-content"}
-                 style={{marginLeft: isSmallscreen ? '' : '22rem'}}/>
+                 style={{marginLeft: isSmallscreen ? '' : '22rem'}} alt={itemImg}/>
         </Box>
     )
 }

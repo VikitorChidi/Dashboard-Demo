@@ -1,6 +1,6 @@
 import {useState} from "react";
 import "../../index.css"
-import {Box, Grid, Tab, Tabs, Typography, useMediaQuery, useTheme} from "@mui/material";
+import {Box, Grid, Tab, Tabs, Typography} from "@mui/material";
 import CustomTabPanel from "../../components/customTab/CustomTabPanel";
 
 function a11yProps(index) {

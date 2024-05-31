@@ -4,7 +4,6 @@ import DashboardSectionB from "./sections/DashboardSectionB";
 import DashboardSectionC from "./sections/DashboardSectionC";
 import DashboardSectionD from "./sections/DashboardSectionD";
 import DashboardSectionE from "./sections/DashboardSectionE";
-import DashboardSectionF from "./sections/DashboardSectionF";
 
 
 const Dashboard = () => {
