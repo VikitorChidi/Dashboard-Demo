@@ -1,7 +1,7 @@
 import {Suspense} from "react";
 import PropTypes from 'prop-types';
 import Loader from "../components/loader/Loader.jsx";
-import {Box, Grid} from "@mui/material";
+import {Grid} from "@mui/material";
 
 const Layout = ({children}) => {
 

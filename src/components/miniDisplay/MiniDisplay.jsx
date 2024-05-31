@@ -3,7 +3,7 @@ import {Box, Typography, useMediaQuery, useTheme} from "@mui/material";
 const MiniDisplay = ({header, contentArray = [{title: "", icon: null}]}) => {
     const theme = useTheme();
     const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
-    const isMediumScreen = useMediaQuery(theme.breakpoints.between('sm', 'md'));
+    // const isMediumScreen = useMediaQuery(theme.breakpoints.between('sm', 'md'));
 
     return (
         <Box sx={{

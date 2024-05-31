@@ -1,5 +1,5 @@
 import {Box, Typography} from "@mui/material";
-import {ExploreMore, MiniExploreMore} from "../../svg";
+import {MiniExploreMore} from "../../svg";
 
 const CustomDisplayItem = ({num, title, desc, itemImg, bg, link, isSmallscreen}) => {
     return (

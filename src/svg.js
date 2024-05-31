@@ -1,4 +1,4 @@
-export const MiniArrow = ({}) => {
+export const MiniArrow = () => {
     return (
         <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -89,7 +89,7 @@ export const ExploreMore = ({width, height, viewBox}) => {
     )
 }
 
-export const MiniExploreMore = ({}) => {
+export const MiniExploreMore = () => {
     return (
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="49.793" height="49.793" rx="20.1863" fill="#202229"/>
@@ -102,7 +102,7 @@ export const MiniExploreMore = ({}) => {
     )
 }
 
-export const Medal = ({}) => {
+export const Medal = () => {
     return (
         <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -113,7 +113,7 @@ export const Medal = ({}) => {
     )
 }
 
-export const DashboardIcon = ({}) => {
+export const DashboardIcon = () => {
     return (
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 10H8V0H0V10ZM0 18H8V12H0V18ZM10 18H18V8H10V18ZM10 0V6H18V0H10Z" fill="#A285D0"/>
@@ -122,7 +122,7 @@ export const DashboardIcon = ({}) => {
     )
 }
 
-export const RankPersonnel = ({}) => {
+export const RankPersonnel = () => {
     return (
         <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -133,7 +133,7 @@ export const RankPersonnel = ({}) => {
     )
 }
 
-export const DoubleQuotationMark = ({}) => {
+export const DoubleQuotationMark = () => {
     return (
         <svg width="221" height="175" viewBox="0 0 221 175" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -151,7 +151,7 @@ export const DoubleQuotationMark = ({}) => {
     )
 }
 
-export const Groove = ({}) => {
+export const Groove = () => {
     return (
         <svg width="192" height="51" viewBox="0 0 192 51" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_2516_23)">
@@ -172,7 +172,7 @@ export const Groove = ({}) => {
     )
 }
 
-export const ArrowBack = ({}) => {
+export const ArrowBack = () => {
     return (
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="49.793" height="49.793" rx="20.1863" transform="matrix(-1 0 0 1 49.793 0)" fill="white"/>
@@ -185,7 +185,7 @@ export const ArrowBack = ({}) => {
     )
 }
 
-export const ArrowFront = ({}) => {
+export const ArrowFront = () => {
     return (
         <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.792969" width="49.793" height="49.793" rx="20.1863" fill="white"/>
@@ -198,7 +198,7 @@ export const ArrowFront = ({}) => {
     )
 }
 
-export const BlackPlayIcon = ({}) => {
+export const BlackPlayIcon = () => {
     return (
         <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="57" height="57" rx="28.5" fill="#ECECEC"/>
@@ -210,7 +210,7 @@ export const BlackPlayIcon = ({}) => {
     )
 }
 
-export const BluePlayIcon = ({}) => {
+export const BluePlayIcon = () => {
     return (
         <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="57" height="57" rx="28.5" fill="#8BA4FD"/>
@@ -222,7 +222,7 @@ export const BluePlayIcon = ({}) => {
     )
 }
 
-export const ContentNumA = ({}) => {
+export const ContentNumA = () => {
     return (
         <svg width="52" height="83" viewBox="0 0 52 83" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.5"
@@ -240,7 +240,7 @@ export const ContentNumA = ({}) => {
     )
 }
 
-export const ContentNumB = ({}) => {
+export const ContentNumB = () => {
     return (
         <svg width="51" height="70" viewBox="0 0 51 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5">
@@ -269,7 +269,7 @@ export const ContentNumB = ({}) => {
     )
 }
 
-export const ContentNumC = ({}) => {
+export const ContentNumC = () => {
     return (<svg width="55" height="71" viewBox="0 0 55 71" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.25">
                 <mask id="path-1-outside-1_1_479" maskUnits="userSpaceOnUse" x="-7" y="-6.5" width="68" height="83"
